@@ -10,8 +10,8 @@ import LinearAlgebra: adjoint, diag
 using Catlab, Catlab.Theories
 import Catlab.Theories:
   Ob, Hom, dom, codom, compose, ⋅, ∘, id, oplus, ⊕, mzero, braid, munit
-using ..GraphicalLinearAlgebra
-import ..GraphicalLinearAlgebra:
+using ..GLA
+import ..GLA:
   mcopy, Δ, delete, ◊, plus, zero, plus, +, scalar, antipode, adjoint
 
 # Theories

@@ -5,7 +5,7 @@ using Random
 using IterativeSolvers
 
 using Catlab, Catlab.Theories, Catlab.WiringDiagrams, Catlab.Programs
-using CategoricalLinearAlgebra.GraphicalLinearAlgebra
+using GraphicalLinearAlgebra.GLA
 import LinearAlgebra: norm, svd
 
 import LinearMaps: BlockDiagonalMap, UniformScaling

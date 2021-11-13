@@ -2,7 +2,7 @@ module TestStructuredGraphicalLinearAlgebra
 using Test
 
 using Catlab, Catlab.Theories
-using CategoricalLinearAlgebra.StructuredGraphicalLinearAlgebra
+using GraphicalLinearAlgebra.StructuredGraphicalLinearAlgebra
 
 R = ℝ(FreeStructuredLinearFunctions.Ob)
 A, B = Ob(FreeStructuredLinearFunctions, :A, :B)

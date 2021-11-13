@@ -26,4 +26,4 @@ id_t = @program C_cat (a::A) cmp(a,Id(t(a)))
 r_unit = Eq(:r_unit, id_t, passa);
 
 I_cat = [cmp_assoc, l_unit, r_unit, cmp_intro]
-T_cat = union(:cat, T_reflG, Σ_cat, I_cat);
+T_cat = union(:category, T_reflG, Σ_cat, I_cat);

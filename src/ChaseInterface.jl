@@ -238,7 +238,11 @@ function theory_to_acset_type(name::Symbol, t::Vector{Box{Symbol}})
     end
   end
   expr = struct_acset(name, StructACSet, pres)
-  eval(expr) # needs to run in order to declare the acset
+  try
+    eval(name)
+  catch _
+    eval(expr) # needs to run in order to declare the acset
+  end
   return eval(name) # acset type as variable
 end
 

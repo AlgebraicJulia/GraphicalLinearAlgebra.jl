@@ -1,6 +1,6 @@
 using Test
 using LinearAlgebra
-using CategoricalLinearAlgebra: C_gla, chase_theory, T_gla, optimal_subdiagram
+using GraphicalLinearAlgebra: C_gla, chase_theory, T_gla, optimal_subdiagram
 using Catlab.Programs
 using Catlab.CategoricalAlgebra
 

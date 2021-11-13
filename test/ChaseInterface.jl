@@ -5,7 +5,7 @@ using Catlab.Present
 using Catlab.Theories
 using Test
 
-using CategoricalLinearAlgebra: csp_homomorphic, chase_theory, T_monoid, x_squared, idxxid
+using GraphicalLinearAlgebra: csp_homomorphic, chase_theory, T_monoid, x_squared, idxxid
 
 
 # We can't immediately prove that (e*x)*(x*e) = x*x

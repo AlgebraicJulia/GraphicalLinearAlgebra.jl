@@ -1,5 +1,8 @@
 using Test
 
+@testset "Destructive" begin
+  include("Destructive.jl")
+end
 
 @testset "ChaseInterface.jl" begin
   include("ChaseInterface.jl")

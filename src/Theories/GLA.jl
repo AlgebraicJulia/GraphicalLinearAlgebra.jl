@@ -1,4 +1,4 @@
-module GraphicalLinearAlgebra
+module GLA
 export LinearFunctions, FreeLinearFunctions,
   LinearRelations, FreeLinearRelations,
   Ob, Hom, dom, codom, compose, ⋅, ∘, id, oplus, ⊕, mzero, swap,
