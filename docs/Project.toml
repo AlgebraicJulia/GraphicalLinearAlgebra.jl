@@ -1,4 +1,4 @@
 [deps]
-AlgebraicRewriting = "725a01d3-f174-5bbd-84e1-b9417bad95d9"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+GraphicalLinearAlgebra = "9b81f181-eaff-41c1-a77a-210ef60f41ce"
 LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
