@@ -25,7 +25,7 @@ import Catlab.Programs: evaluate_hom
 
 Functional fragment of graphical linear algebra.
 """
-@theory LinearFunctions{Ob,Hom} <: AdditiveCategory{Ob,Hom} begin
+@theory LinearFunctions{Ob,Hom} <: ThAdditiveCategory{Ob,Hom} begin
   adjoint(f::(A → B))::(B → A) ⊣ (A::Ob, B::Ob)
   scalar(A::Ob, c::Number)::(A → A)
 
@@ -53,7 +53,7 @@ end
 
 The full relational language of graphical linear algebra.
 """
-@theory LinearRelations{Ob,Hom} <: AbelianBicategoryRelations{Ob,Hom} begin
+@theory LinearRelations{Ob,Hom} <: ThAbelianBicategoryRelations{Ob,Hom} begin
   adjoint(R::(A → B))::(B → A) ⊣ (A::Ob, B::Ob)
 
   scalar(A::Ob, c::Number)::(A → A)
